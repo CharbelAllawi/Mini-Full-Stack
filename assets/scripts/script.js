@@ -55,6 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 })
 
+
 document.getElementById("registerbtn").onclick = function (event) {
   let first_name = document.getElementById("fname").value;
   let last_name = document.getElementById("lname").value;
@@ -92,6 +93,5 @@ document.getElementById("registerbtn").onclick = function (event) {
     })
     .catch(error => console.log('error', error));
 };
-
 
 
